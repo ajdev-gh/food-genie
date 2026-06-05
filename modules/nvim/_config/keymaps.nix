@@ -27,16 +27,17 @@
       }
       {
         key = "p";
-        mode = "x";
+        mode = [ "x" ];
         action = "\"_dP";
       }
       {
         key = "d";
-        mode = "n";
+        mode = [ "n" ];
         action = "\"_d";
-      }{
+      }
+      {
         key = "d";
-        mode = "v";
+        mode = [ "v" ];
         action = "\"_d";
       }
     ];
