@@ -14,6 +14,11 @@
         enable = true;
         format.type = [ "nixfmt" ];
       };
+
+      html.enable = true;
+      css.enable = true;
+      json.enable = true;
+      typescript.enable = true;
     };
 
     diagnostics = {
