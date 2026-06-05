@@ -7,6 +7,8 @@
 
     statusline.lualine.enable = true;
 
+    visuals.nvim-web-devicons.enable = true;
+
     mini = {
       files.enable = true;
     };
