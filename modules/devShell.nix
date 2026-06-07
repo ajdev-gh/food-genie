@@ -22,7 +22,8 @@
         packages = [
           self'.packages.nvim
           pkgs.nodejs_24
-          unfreePkgs.mongodb
+          unfreePkgs.mongodb-ce
+          unfreePkgs.mongosh
         ];
       };
     };
