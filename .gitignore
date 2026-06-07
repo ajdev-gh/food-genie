@@ -1,20 +1,18 @@
+# Nix / DevShell
 .direnv/
-result
-result-*
+result*
 
+# Node / Dependencies / Tooling
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+*.log*
 .eslintcache
 
+# Database / Local Storage
 .data/
 
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Environment Variables / Secrets
+.env*
 
+# OS Specific Files
 .DS_Store
 Thumbs.db
