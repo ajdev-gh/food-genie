@@ -7,6 +7,12 @@
 
     statusline.lualine.enable = true;
 
+    git = {
+      gitsigns.enable = true;
+      vim-fugitive.enable = true;
+
+    };
+
     visuals.nvim-web-devicons.enable = true;
 
     mini = {
